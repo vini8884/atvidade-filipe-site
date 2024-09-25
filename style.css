@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f9a825;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Postagem principal */
+.postagem {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    width: 70%;
+}
+
+.postagem img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.postagem h2 {
+    color: #f9a825;
+}
+
+.postagem .data {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.postagem .texto {
+    margin: 15px 0;
+}
+
+.leia-mais {
+    color: #f9a825;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Barra lateral (aside) */
+aside {
+    width: 30%;
+}
+
+.recentes, .categorias {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recentes h3, .categorias h3 {
+    color: gray;
+}
+
+.recentes ul, .categorias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recentes ul li, .categorias ul li {
+    margin-bottom: 10px;
+}
+
+.recentes ul li a, .categorias ul li a {
+    text-decoration: none;
+    color: #f9a825;
+}
+
+/* Rodapé (atualmente vazio) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9a825;
+    color: white;
+}
